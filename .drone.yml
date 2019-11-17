@@ -6,9 +6,9 @@ name: default
 steps:
 
   - name: home  
-    image: plugins/home
+    image: plugins/docker
     settings:
-      repo: quadeare/resume
+      repo: quadeare/home
       username:
         from_secret: docker_username
       password:
