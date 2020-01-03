@@ -3,6 +3,7 @@ const app = new Vue({
     data: {
         config: null,
         filter: '',
+        offline: false,
         vlayout: true,
         isDark: null
     },
